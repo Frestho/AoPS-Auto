@@ -1,7 +1,7 @@
 import keyboard, time
-week = 3
+week = 2
 time.sleep(5)
-while week < 8:
+while week < 25:
     keyboard.press_and_release('ctrl+l')
     time.sleep(0.1) #wait for browser to respond
     keyboard.write('https://artofproblemsolving.com/class/1809-maa-amc10/homework/' + str(week))#go to homework page
