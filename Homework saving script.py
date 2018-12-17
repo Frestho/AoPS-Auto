@@ -10,7 +10,7 @@ while week < 25:
     keyboard.press_and_release('ctrl+p')
     time.sleep(1) #wait for printing menu to pop up (1 second)
     keyboard.press_and_release('enter')
-    time.sleep(5) #wait for printing job to finish (10 seconds)
+    time.sleep(5) #wait for printing job to finish (5 seconds)
     keyboard.write('Week ' + str(week) + ' HW')
     keyboard.press_and_release('enter')
     time.sleep(0.5) #wait for file to get saved
