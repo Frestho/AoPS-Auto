@@ -10,7 +10,7 @@ while week < 25:
     #Go to your week 1 transcript and paste it in the url below, replacing the existing one. Then move the number at the end here:
     #                          |             |                                               |   
     #                          v             v                                               v 
-    keyboard.write('https://artofproblemsolving.com/class/1809-maa-amc10/transcript/' + str(25244 + week-1))#go to homework page
+    keyboard.write('https://artofproblemsolving.com/class/1809-maa-amc10/transcript/' + str(25245 + week-1))#go to homework page
     
     
     
