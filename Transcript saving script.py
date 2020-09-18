@@ -1,7 +1,12 @@
 import keyboard, time
-week = 2
+# CHANGE THIS TO THE APPROPRIATE AMOUNT!!!
+NUMBER_OF_WEEKS = 24
+
+//the week to start on
+week = 1
+
 time.sleep(5)
-while week < 25:
+while week <= NUMBER_OF_WEEKS:
     keyboard.press_and_release('ctrl+l')
     time.sleep(0.1) #wait for browser to respond
     
