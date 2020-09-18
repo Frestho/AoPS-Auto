@@ -1,7 +1,14 @@
 import keyboard, time
-week = 2
+
+#change this!!!
+NUMBER_OF_WEEKS = 24
+
+#change this if you want to start at a week which isn't 1
+week = 1
+
+
 time.sleep(5)
-while week < 25:
+while week <= NUMBER_OF_WEEKS:
     keyboard.press_and_release('ctrl+l')
     time.sleep(0.1) #wait for browser to respond
     keyboard.write('https://artofproblemsolving.com/class/1809-maa-amc10/homework/' + str(week))#go to homework page
@@ -15,5 +22,3 @@ while week < 25:
     keyboard.press_and_release('enter')
     time.sleep(0.5) #wait for file to get saved
     week += 1
-    
-    
