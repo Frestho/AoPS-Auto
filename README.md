@@ -5,7 +5,7 @@ Instructions:
 This requires you to have the Keyboard library installed. It can be found here:
 https://github.com/boppreh/keyboard
 
-1. Open up your desired script (depending on whether you are going to save lesson transcripts or homework)
+1. Open up the appropriate script (lesson transcripts or homework)
 2. Look at line 4. You may need to change the number after "week < ..." depending on your class length. You should change it to your class length in weeks + 1. If you are saving transcripts, there is an extra step here. When you save the first transcript yourself, note the url. You should see a number like 25245 at the end. Subtract 1 from that number (assuming you are saving week 1's transcript) and replace it with the number at the end of line 7. This step is not necessary if you are saving homework pages.
 3. Go to your first week's transcript or homework page. You need to save the first page manually so your computer knows where to save future pages.
 4. Start the script. Make sure your browser window is focused.
